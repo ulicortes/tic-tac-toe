@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 export default function Tablero({sectores, marcar}: {sectores: string[], marcar:(i: number) => void}) {
     const llenarTablero = (indice: number) => {
         marcar(indice);
